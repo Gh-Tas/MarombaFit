@@ -1,0 +1,138 @@
+body{
+    background-image: url(imagens/istockphoto-1391410249-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header{
+    min-height: 75px;
+    background: linear-gradient(to bottom, rgb(210, 30, 30), rgba(210, 30, 30, 0.87));
+}
+
+header > form{
+    position: absolute;
+    left: 42%;
+    top: 20px;
+}
+
+header > h1{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+header > img{
+    position: absolute;
+    top: 20px;
+    left: 2px;
+}
+
+header > form {
+    display: flex;
+  }
+  
+  input[id="barra"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  button[id="botaobarra"] {
+    padding: 8px 12px;
+    background-color: #ffffff;
+    color: rgb(27, 27, 27);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  nav{
+    position: absolute;
+    top:  10px;
+    left: 1300px;
+}
+
+nav > a{
+    text-decoration: none;
+
+    color: white;
+}
+
+main{
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(210, 30, 30, 0.904);
+    
+}
+
+.textomain{
+    padding-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+footer{
+    background: linear-gradient(to top, rgb(210, 30, 30), rgba(210, 30, 30, 0.87));
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    min-height: 100px;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-contato{
+    position: absolute;
+    left: 25%;
+    bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.links-uteis{
+    position: absolute;
+    right: 35%;
+    bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+.links-uteis > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.midias-sociais{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    color: white;
+}
+
+.midias-sociais > a{
+    text-decoration: none;
+    color: white;
+}
+
+.direitos-autorais{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  *{
+    margin: 0px;
+  }
